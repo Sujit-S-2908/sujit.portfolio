@@ -1,53 +1,78 @@
-# Portfolio HTML Implementation
+# Sujit S - Personal Portfolio
 
-This is an HTML, CSS, and JavaScript implementation of the portfolio originally built in React.
-
-## Structure
-
-The portfolio consists of the following sections:
-
-1. **Navbar** - A responsive navigation bar with links to each section
-2. **Hero** - Introduction section with a call-to-action button
-3. **About** - Information about the developer
-4. **Experience** - Timeline of work experience
-5. **Skills** - Technical skills organized by category
-6. **Projects** - Showcase of projects with descriptions
-7. **Certifications** - List of professional certifications
-8. **Contact** - Contact form and personal information
-9. **Footer** - Additional links and copyright information
-
-## Files
-
-- `index.html` - Main HTML file that contains all sections
-- `css/styles.css` - Comprehensive CSS file for styling all components
-- `js/scripts.js` - JavaScript file for interactive functionality
+A modern, sleek, and responsive personal portfolio website showcasing my skills, projects, and experience in AI and Data Science.
 
 ## Features
 
-- **Responsive Design**: Adapts to different screen sizes
-- **Mobile Menu**: Hamburger menu for mobile devices
-- **Smooth Scrolling**: Smooth navigation between sections
-- **Form Validation**: Client-side validation for the contact form
-- **Animations**: Fade-in animations for elements as they enter the viewport
-- **Active Navigation**: Highlights current section in the navigation menu
+- 🔥 Modern UI with glassmorphism effects
+- 🌙 Dark mode by default with light mode toggle
+- 📱 Fully responsive design for all devices
+- ⚡ Fast performance and smooth animations
+- 🔍 SEO optimized
+- 🎨 Custom styling with Tailwind CSS
+- ⚛️ Built with React and TypeScript
 
-## How to Use
+## Tech Stack
 
-1. Simply open the `index.html` file in a web browser to view the portfolio.
-2. Modify the content in `index.html` to personalize the portfolio.
-3. Adjust styles in `css/styles.css` to change the appearance.
-4. Extend functionality in `js/scripts.js` if needed.
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion for animations
+- React Router for navigation
+- React Scroll for smooth scrolling
+- React Icons for icon components
 
-## Browser Compatibility
+## Getting Started
 
-This implementation uses modern CSS and JavaScript features and is compatible with:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+### Prerequisites
 
-## Credits
+- Node.js (v14.0.0 or later)
+- npm or yarn
 
-This implementation uses:
-- Font Awesome for icons
-- Placeholder images from https://via.placeholder.com/ 
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
+
+4. Open your browser and visit `http://localhost:3000`
+
+## Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## Customization
+
+Feel free to customize the portfolio to make it your own:
+
+- Edit the data in each component to reflect your personal information
+- Update the color scheme in `tailwind.config.js`
+- Replace placeholder images with your own project screenshots
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Sujit S - sujits2908@gmail.com
